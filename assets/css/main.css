@@ -1,0 +1,151 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*-- header --*/
+#header{
+  width: 100%;
+  text-align: center;
+  z-index: 99;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+#header dl {
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin: 0px 0px 0px -550px;
+  position: absolute;
+  left: 50%;
+  top: 10px;
+}
+
+#header dl, #header dd a {
+  color: #aaaaaa;
+}
+
+#header dd {
+  float: right;
+  margin-left: 10px;
+}
+
+/*-- brand --*/
+#brand {
+  width: 100%;
+  text-align: center;
+  padding: 300px 0px 300px 0px;
+  font-size: 30px;
+  letter-spacing: 3px;
+  background-color: #000033;
+}
+#brand h2, #brand h1 a {
+  display: inline;
+}
+#brand h2 span {
+  padding-top: 5px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #aaaaaa;
+}
+body, a {
+  line-height: 1;
+  color: #aaaaaa;
+  background-color: #000033;
+}
+
+
+#wrapper {
+  margin: 0px auto 0px auto;
+  padding-top: 100px;
+  background-color: #000033;
+}
+
+#header dl, #wrapper, #description {
+  width: 1096px;
+}
+
+#works {
+  overflow: hidden;
+  margin: 0px -42px 50px -42px;
+}
+
+#works .work {
+  float: left;
+  width: 250px;
+  height: 140px;
+  margin: 0px 42px 50px 42px;
+}
+
+#works .work a, #works .work img {
+  width: 100%;
+}
+
+#works .work h4 {
+  font-size: 15px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#concepts {
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+#concepts p {
+  margin-bottom: 2em;
+  font-size: 116.6%;
+  line-height: 2.2;
+  letter-spacing: 2px;
+  color: #aaaaaa;
+}
+
+
+#description {
+  width: 100%;
+  padding: 80px 0px 30px 0px;
+  background-color: #000033;
+}
+
+#description #profile {
+  width: 976px;
+  height: 100px;
+  margin: 0px auto 70px auto;
+  padding-left: 120px;
+  background-position: left top;
+  position: relative;
+  overflow: hidden;
+}
+
+#description #profile h3 {
+  font-size: 116.6%;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  padding-top: 7px;
+  color: #aaaaaa;
+}
+
+#description #profile p {
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+#description #sns {
+  margin: 0px auto 0px auto;
+  overflow: hidden;
+}
+
+#description #sns dl {
+  float: right;
+  margin-right: 50px;
+}
+
+#description #sns dd {
+  float: left;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+#description #sns dd a {
+  display: inline;
+  color: #aaaaaa;
+}
